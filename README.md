@@ -28,7 +28,7 @@ To run this program, simply download this; then either
   * Run in a Python IDE
   * or if in an SSH client, use the command
     
-        python pull.py
+        python toSIF.py
 
 Must have the .txt file formatted as:
 [ORGANISM]  [PATHWAY] [ENZYME #]  [1 | 0]
@@ -40,6 +40,6 @@ To run this program, simply download this; then either
  * Run in a Python IDE
  * or if in an SSH client, use the command
         
-        python pull.py
+        python counter.py
 
 Must have .sif file
