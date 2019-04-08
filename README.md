@@ -13,7 +13,7 @@ To run this program, simply download this; then either
  * Run in a Python IDE
  * or if in an SSH client, use the command
 
-    # python pull.py
+        python pull.py
 
 ## toSIF.py 
     # transform data .txt file to .sif networks per metabolic pathways
