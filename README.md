@@ -25,10 +25,10 @@ To run this program, simply download this; then either
       # Bacteria to Enzyme to Pathway
 To run this program, simply download this; then either
     
-    * Run in a Python IDE
-    * or if in an SSH client, use the command
+  * Run in a Python IDE
+  * or if in an SSH client, use the command
     
-    # python pull.py
+        python pull.py
 
 Must have the .txt file formatted as:
 [ORGANISM]  [PATHWAY] [ENZYME #]  [1 | 0]
