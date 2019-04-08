@@ -1,7 +1,7 @@
 # FermentKEGGRest
 Pulls pathway information from KEGG
 
-# pull.py 
+## pull.py 
     # collects data from KEGG
     # Uses KEGG API via Biopython
     # Formats as follows:
@@ -15,7 +15,7 @@ To run this program, simply download this; then either
 
     # python pull.py
 
-# toSIF.py 
+## toSIF.py 
     # transform data .txt file to .sif networks per metabolic pathways
     # Simple file parser that formats into .sif
     # [NODE 1] [EDGE TYPE] [NODE 2]
@@ -33,11 +33,13 @@ To run this program, simply download this; then either
 Must have the .txt file formatted as:
 [ORGANISM]  [PATHWAY] [ENZYME #]  [1 | 0]
   
-# counter.py 
+## counter.py 
     # counts the numbers of edges per bacteria per pathway divided by total enzymes in the pathway
 To run this program, simply download this; then either
     
-    * Run in a Python IDE
-    * or if in an SSH client, use the command
-    # python pull.py
+ * Run in a Python IDE
+ * or if in an SSH client, use the command
+        
+        python pull.py
+
 Must have .sif file
