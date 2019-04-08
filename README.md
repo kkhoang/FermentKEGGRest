@@ -10,8 +10,8 @@ Pulls pathway information from KEGG
     # 1 means that bacteria has KEGG ortholog for that enzyme
 To run this program, simply download this; then either
     
-    * Run in a Python IDE
-    * or if in an SSH client, use the command
+ * Run in a Python IDE
+ * or if in an SSH client, use the command
 
     # python pull.py
 
